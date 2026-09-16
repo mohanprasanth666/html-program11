@@ -17,16 +17,52 @@ body {
     background-color: #fffded;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
     font-style: italic;
 }
+
 
 /* the styles for the header */
 header {
     padding: 1.5em 0 2em 0;
     border-bottom: 3px solid #931420;
+
+    background-image: -moz-linear-gradient(
+        30deg,
+        #f6bb73 0%,
+        #f6bb73 30%,
+        white 50%,
+        #f6bb73 80%,
+        #f6bb73 100%
+    );
+
+    background-image: -webkit-linear-gradient(
+        30deg,
+        #f6bb73 0%,
+        #fffded 30%,
+        white 50%,
+        #fffded 80%,
+        #f6bb73 100%
+    );
+
+    background-image: -o-linear-gradient(
+        30deg,
+        #f6bb73 0%,
+        #fffded 30%,
+        white 50%,
+        #fffded 80%,
+        #f6bb73 100%
+    );
+
     background-image: linear-gradient(
-        30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+        30deg,
+        #f6bb73 0%,
+        #fffded 30%,
+        white 50%,
+        #fffded 80%,
+        #f6bb73 100%
+    );
 }
 
 header h2 {
@@ -48,10 +84,12 @@ header img {
     text-shadow: 2px 2px 2px #800000;
 }
 
+
 /* the styles for the main content */
 main {
     clear: left;
 }
+
 
 /* the styles for the section */
 section {
@@ -71,6 +109,7 @@ section p {
     padding-bottom: .5em;
 }
 
+
 /* the styles for the article */
 article {
     padding: .5em 0;
@@ -86,6 +125,7 @@ article img {
     margin: .5em 0 1em 1em;
     border: 1px solid black;
 }
+
 
 /* the styles for the aside */
 aside {
@@ -109,6 +149,7 @@ aside img {
     padding-bottom: 1em;
 }
 
+
 /* the styles for the navigation list */
 #nav_list ul {
     list-style: none;
@@ -122,6 +163,7 @@ aside img {
     border: 2px double black;
     border-radius: 10px;
     box-shadow: 3px 3px 0 0 #800000;
+
     background-image: url("../images/right.jpg");
     background-repeat: no-repeat;
     background-position: 95% center;
@@ -138,6 +180,7 @@ aside img {
 #nav_list ul li a.current {
     color: #800000;
 }
+
 
 /* the styles for the footer */
 footer {
